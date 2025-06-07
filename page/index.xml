@@ -18,8 +18,10 @@
       <link>https://blog.badgerlabs.dev/page/about/</link>
       <pubDate>Wed, 16 Apr 2025 11:40:32 -0400</pubDate>
       <guid>https://blog.badgerlabs.dev/page/about/</guid>
-      <description>&lt;h1 id=&#34;about&#34;&gt;about&lt;/h1&gt;
-&lt;p&gt;me&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
+&lt;p&gt;Welcome to Badger Labs!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m Rayjan Wilson, a software engineer and lifelong learner. This blog is my space to document things I figure out—whether it&amp;rsquo;s solving tricky software engineering problems, exploring Linux, or experimenting with new tools and technologies.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll find guides, troubleshooting notes, and insights from my day-to-day work and tinkering. My goal is to share practical knowledge that might help others (and my future self) along the way.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
