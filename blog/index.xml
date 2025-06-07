@@ -11,15 +11,17 @@
     </image>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Apr 2025 11:32:01 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jun 2025 22:02:14 -0400</lastBuildDate>
     <atom:link href="https://blog.badgerlabs.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Helloworld</title>
-      <link>https://blog.badgerlabs.dev/blog/helloworld/</link>
-      <pubDate>Wed, 16 Apr 2025 11:32:01 -0400</pubDate>
-      <guid>https://blog.badgerlabs.dev/blog/helloworld/</guid>
-      <description>&lt;h1 id=&#34;hello&#34;&gt;hello&lt;/h1&gt;
-&lt;p&gt;wat&lt;/p&gt;</description>
+      <title>Mergerfs With Nvme Usb Drives</title>
+      <link>https://blog.badgerlabs.dev/blog/mergerfs-with-nvme-usb-drives/</link>
+      <pubDate>Fri, 06 Jun 2025 22:02:14 -0400</pubDate>
+      <guid>https://blog.badgerlabs.dev/blog/mergerfs-with-nvme-usb-drives/</guid>
+      <description>&lt;h1 id=&#34;combining-multiple-nvme-usb-drives-with-mergerfs&#34;&gt;Combining Multiple NVMe USB Drives with MergerFS&lt;/h1&gt;
+&lt;p&gt;Recently, I wanted to combine several NVMe drives using NVMe-to-USB adapters into a single large storage pool on my Linux system. My goal was to use &lt;a href=&#34;https://github.com/trapexit/mergerfs&#34;&gt;mergerfs&lt;/a&gt; to create a unified mount point, making it easy to manage files across all drives. In particular i followed the instructions outlined on &lt;a href=&#34;https://perfectmediaserver.com/03-installation/manual-install-ubuntu/&#34;&gt;Perfect Media Server&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-challenge-identical-usb-adapters&#34;&gt;The Challenge: Identical USB Adapters&lt;/h2&gt;
+&lt;p&gt;After connecting the drives, I ran into an issue: Linux couldn&amp;rsquo;t easily distinguish between them. They weren&amp;rsquo;t each showing up in &lt;code&gt;/dev/disk/by-id/&lt;/code&gt;, only one was. Since all the NVMe-to-USB adapters were from the same manufacturer, this causes udev (the system that creates entries in /dev/disk/by-id) to ignore or overwrite it, because:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
