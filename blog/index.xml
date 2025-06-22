@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Jun 2025 22:02:14 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jun 2025 11:56:07 -0400</lastBuildDate>
     <atom:link href="https://blog.badgerlabs.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Low-Cost Drone SAR System: Democratizing 3D Mapping with Software-Defined Radio</title>
+      <link>https://blog.badgerlabs.dev/blog/diy-sar-for-mapping/</link>
+      <pubDate>Sun, 22 Jun 2025 11:56:07 -0400</pubDate>
+      <guid>https://blog.badgerlabs.dev/blog/diy-sar-for-mapping/</guid>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m planning to build a drone-mounted Synthetic Aperture Radar (SAR) system using a LimeSDR Mini 2.0 and Raspberry Pi 5 that can generate high-resolution 3D maps at a fraction of the cost of traditional methods. This system will operate in any weather, penetrate vegetation, and provide sub-meter elevation accuracy for under $10,000 total hardware cost. The key innovation is using &amp;ldquo;snapshot SAR&amp;rdquo; processing to work around the navigation limitations of low-cost platforms.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mergerfs With Nvme Usb Drives</title>
       <link>https://blog.badgerlabs.dev/blog/mergerfs-with-nvme-usb-drives/</link>
