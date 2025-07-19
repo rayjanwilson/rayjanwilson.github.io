@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Jun 2025 11:56:07 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jul 2025 11:56:07 -0400</lastBuildDate>
     <atom:link href="https://blog.badgerlabs.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powering Disaster Response Drones: Why Three-Phase Beats Single-Phase for Tethered Communications Systems</title>
       <link>https://blog.badgerlabs.dev/blog/powering-disaster-response-drones/</link>
-      <pubDate>Fri, 27 Jun 2025 11:56:07 -0400</pubDate>
+      <pubDate>Sat, 19 Jul 2025 11:56:07 -0400</pubDate>
       <guid>https://blog.badgerlabs.dev/blog/powering-disaster-response-drones/</guid>
       <description>&lt;p&gt;When natural disasters strike, communication infrastructure often becomes the first casualty. Cell towers topple, fiber optic cables break, and emergency responders find themselves operating in communication blackouts. Enter the tethered drone—a promising solution that can hover at 400 feet, acting as a temporary telecommunications tower to restore critical connectivity.&lt;/p&gt;
 &lt;p&gt;But here&amp;rsquo;s the engineering challenge: these systems require substantial continuous power to maintain flight operations while running telecommunications equipment. The question becomes: what&amp;rsquo;s the most efficient way to deliver that power through a 400-foot tether cable?&lt;/p&gt;</description>

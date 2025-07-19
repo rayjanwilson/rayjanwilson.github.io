@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Badger Labs</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog.badgerlabs.dev/</link>
     <description>Recent content on Badger Labs</description>
     <image>
       <title>Badger Labs</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://blog.badgerlabs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.badgerlabs.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.7</generator>
     <language>en</language>
     <lastBuildDate>Sat, 19 Jul 2025 11:56:07 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.badgerlabs.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Powering Disaster Response Drones: Why Three-Phase Beats Single-Phase for Tethered Communications Systems</title>
-      <link>http://localhost:1313/blog/powering-disaster-response-drones/</link>
+      <link>https://blog.badgerlabs.dev/blog/powering-disaster-response-drones/</link>
       <pubDate>Sat, 19 Jul 2025 11:56:07 -0400</pubDate>
-      <guid>http://localhost:1313/blog/powering-disaster-response-drones/</guid>
+      <guid>https://blog.badgerlabs.dev/blog/powering-disaster-response-drones/</guid>
       <description>&lt;p&gt;When natural disasters strike, communication infrastructure often becomes the first casualty. Cell towers topple, fiber optic cables break, and emergency responders find themselves operating in communication blackouts. Enter the tethered drone—a promising solution that can hover at 400 feet, acting as a temporary telecommunications tower to restore critical connectivity.&lt;/p&gt;
 &lt;p&gt;But here&amp;rsquo;s the engineering challenge: these systems require substantial continuous power to maintain flight operations while running telecommunications equipment. The question becomes: what&amp;rsquo;s the most efficient way to deliver that power through a 400-foot tether cable?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building a Low-Cost Drone SAR System: Democratizing 3D Mapping with Software-Defined Radio</title>
-      <link>http://localhost:1313/blog/diy-sar-for-mapping/</link>
+      <link>https://blog.badgerlabs.dev/blog/diy-sar-for-mapping/</link>
       <pubDate>Sun, 22 Jun 2025 11:56:07 -0400</pubDate>
-      <guid>http://localhost:1313/blog/diy-sar-for-mapping/</guid>
+      <guid>https://blog.badgerlabs.dev/blog/diy-sar-for-mapping/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m planning to build a drone-mounted Synthetic Aperture Radar (SAR) system using a LimeSDR Mini 2.0 and Raspberry Pi 5 that can generate high-resolution 3D maps at a fraction of the cost of traditional methods. This system will operate in any weather (assuming the drone does as well), penetrate vegetation, and provide sub-meter elevation accuracy for under $10,000 total hardware cost. The key innovation is using &amp;ldquo;snapshot SAR&amp;rdquo; processing to work around the navigation limitations of low-cost platforms.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mergerfs With Nvme Usb Drives</title>
-      <link>http://localhost:1313/blog/mergerfs-with-nvme-usb-drives/</link>
+      <link>https://blog.badgerlabs.dev/blog/mergerfs-with-nvme-usb-drives/</link>
       <pubDate>Fri, 06 Jun 2025 22:02:14 -0400</pubDate>
-      <guid>http://localhost:1313/blog/mergerfs-with-nvme-usb-drives/</guid>
+      <guid>https://blog.badgerlabs.dev/blog/mergerfs-with-nvme-usb-drives/</guid>
       <description>&lt;h1 id=&#34;combining-multiple-nvme-usb-drives-with-mergerfs&#34;&gt;Combining Multiple NVMe USB Drives with MergerFS&lt;/h1&gt;
 &lt;p&gt;Recently, I wanted to combine several NVMe drives using NVMe-to-USB adapters into a single large storage pool on my Linux system. My goal was to use &lt;a href=&#34;https://github.com/trapexit/mergerfs&#34;&gt;mergerfs&lt;/a&gt; to create a unified mount point, making it easy to manage files across all drives. In particular i followed the instructions outlined on &lt;a href=&#34;https://perfectmediaserver.com/03-installation/manual-install-ubuntu/&#34;&gt;Perfect Media Server&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-challenge-identical-usb-adapters&#34;&gt;The Challenge: Identical USB Adapters&lt;/h2&gt;
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/page/about/</link>
+      <link>https://blog.badgerlabs.dev/page/about/</link>
       <pubDate>Wed, 16 Apr 2025 11:40:32 -0400</pubDate>
-      <guid>http://localhost:1313/page/about/</guid>
+      <guid>https://blog.badgerlabs.dev/page/about/</guid>
       <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 &lt;p&gt;Welcome to Badger Labs!&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m Rayjan Wilson, a software engineer and lifelong learner. This blog is my space to document things I figure out—whether it&amp;rsquo;s solving tricky software engineering problems, exploring Linux, or experimenting with new tools and technologies.&lt;/p&gt;
