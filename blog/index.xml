@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Jul 2025 16:17:02 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 12:00:00 -0400</lastBuildDate>
     <atom:link href="https://blog.badgerlabs.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Claude Code Loads Context: Skills, Plugins, and CLAUDE.md Hierarchy</title>
+      <link>https://blog.badgerlabs.dev/blog/claude-code-context-hierarchy/</link>
+      <pubDate>Mon, 24 Aug 2026 12:00:00 -0400</pubDate>
+      <guid>https://blog.badgerlabs.dev/blog/claude-code-context-hierarchy/</guid>
+      <description>&lt;p&gt;Claude Code pulls configuration from a lot of places at once: a user-level home directory, a project directory, plugins, and — if you&amp;rsquo;re on a managed machine — an organization policy layer above all of it. Once you&amp;rsquo;re running more than one or two projects, it stops being obvious what&amp;rsquo;s actually in context for a given session, and that matters in two directions. Too much loaded and you&amp;rsquo;re paying token cost for instructions and skill descriptions a session will never use. Too little loaded and a rule you were relying on silently isn&amp;rsquo;t there.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Managing Shared Terraform Modules: From Copy-Paste to Centralized Dependencies</title>
       <link>https://blog.badgerlabs.dev/blog/terraform-module-sharing/</link>
