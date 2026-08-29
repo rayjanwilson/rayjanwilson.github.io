@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 19:57:37 -0400</lastBuildDate>
     <atom:link href="https://blog.badgerlabs.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debugging chrome-devtools-mcp on WSL2: Puppeteer Was Secretly Launching Windows Chrome</title>
+      <link>https://blog.badgerlabs.dev/blog/chrome-devtools-mcp-wsl2/</link>
+      <pubDate>Fri, 28 Aug 2026 19:57:37 -0400</pubDate>
+      <guid>https://blog.badgerlabs.dev/blog/chrome-devtools-mcp-wsl2/</guid>
+      <description>&lt;p&gt;&lt;code&gt;chrome-devtools-mcp&lt;/code&gt; is a Puppeteer-based MCP server that gives an agent direct control over a real Chrome instance — navigate, screenshot, inspect the DOM, read console/network output. On a fresh WSL2 setup it failed on every single call, immediately, with an error that gave no indication of what was actually wrong:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Protocol error (Target.setDiscoverTargets): Target closed
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The environment: WSL2 (Ubuntu-based) on a Windows 11 host, WSLg enabled (GUI apps work fine via &lt;code&gt;DISPLAY=:0&lt;/code&gt;/Wayland), &lt;code&gt;chromium&lt;/code&gt; installed on the Linux side via apt (&lt;code&gt;/usr/bin/chromium&lt;/code&gt; — not &lt;code&gt;google-chrome&lt;/code&gt;), and a normal Google Chrome install on the Windows side. That specific combination — Linux Chromium from apt, Windows-side Chrome installed separately — turned out to be exactly the trigger condition.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How Claude Code Loads Context: Skills, Plugins, and CLAUDE.md Hierarchy</title>
       <link>https://blog.badgerlabs.dev/blog/claude-code-context-hierarchy/</link>
